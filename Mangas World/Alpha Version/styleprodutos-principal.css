@@ -1,0 +1,81 @@
+﻿#Título_Boku_no {
+	margin-left: 40%;
+	margin-top: 15%;
+} /*O nome do mangá está a 40% de distância da margem ocidental e 15% da margem superior.*/
+
+#Título_Dragon_Ball {
+	margin-left: 42%;
+	margin-top: 14%;
+} /*O nome do mangá está a 42% de distância da margem ocidental e 14% da margem superior.*/
+
+
+#Título_Naruto {
+	margin-left: 48%;
+	margin-top: 8%;
+} /*O nome do mangá está a 48% de distância da margem ocidental e 8% da margem superior.*/
+
+#Título_One_Punch {
+	margin-left: 45%;
+	margin-top: 2%;
+} /*O nome do mangá está a 45% de distância da margem ocidental e 2% da margem superior.*/
+
+#Título_Sword_Art {
+	margin-left: 42%;
+	margin-top: 17%;
+} /*O nome do mangá está a 42% de distância da margem ocidental e 17% da margem superior.*/
+
+
+#Poster {
+	margin-left: 28.5%;
+	border: 3px solid black;
+} /*O pôster está a 28,5% de distância da margin ocidental e tem borda sóldia preta de 3 pixels de largura.*/
+
+#Informações {
+	margin-left: 2%;
+	width: 90%;
+	text-align: justify;
+	list-style: none;
+} /*A lista de informações encontra-se a 2% de distância da margem superior; tem 90% de comprimento; seus textos são alinhados justificados; 
+e o marcador de item de lista é anulado.*/
+
+table {
+	background-color: red;
+} /*A tabela de mangás é preenchida pela cor vermelha.*/
+
+.Volumes {
+	border: 3px solid gold;
+	width: 25%;
+} /*Cada coluna da tabela possui uma borda sóldia dourada de 3 pixels de largura e comprimento de 25%.*/
+
+.Capa {
+	margin-left: 15%;
+	border: 3px solid black;
+} /*Cada capa de mangá está a 15% de distância da margem ocidental da coluna e tem borda sólida preta de 3 pixels de largura.*/
+
+.Capa:hover {
+	border: 3px solid gold;
+} /*Quando o cursor do mouse estiver sobre alguma capa, a borda desta será dourada.*/
+
+.Nome_Volume {
+	text-align: center;
+	color: white;
+} /*O nome do volume é alinhado ao centro da coluna e preenchido pela cor branca.*/
+
+.Número_Volume {
+	margin-top: -5%;
+	text-align: center;
+	color: white;
+} /*O número do volume está a -5% da margem superior, alinhado ao centro da coluna e preenchido pela cor branca.*/
+
+#Notícia {
+	margin-left: 5%;
+	width: 90%;
+	text-align: justify;
+} /*A notícia está a 5% da margem ocidental; tem 90% de comprimento; e seu texto é alinhado justificado.*/
+
+video {
+	border: 3px solid black;
+	margin-left: 25%;
+	width: 50%;
+} /*O vídeo da notícia tem borda sólida preta de 3 pixels de largura; encontra-se a 25% de distância da margem ocidental;
+e tem 50% de comprimento.*/

@@ -1,0 +1,64 @@
+﻿<html>
+
+	<head>
+
+		<title>MANGÁS WORLD (マンガの世界)</title>
+		
+		<link type="text/css" rel="stylesheet" href="styleglobal.css"> <!-- CSS global do web site -->
+		<link rel="stylesheet" type="text/css" href="stylecontato.css"> <!-- CSS específico da página -->
+
+	</head>
+	
+	<body>
+
+		<table id="Menu"> <!-- → MENU -->
+			<tr>
+				<td> <a href="index.html"><p class="Navegação"><strong>A EMPRESA</strong></p></a> </td> <!-- → Navegação do Menu -->
+				<td> <a href="parceiros.html"><p class="Navegação"><strong>PARCEIROS</strong></p></a> </td> 
+				<td> <a href="produtos.html"><p class="Navegação"><strong>PRODUTOS</strong></p></a> </td>
+				<td> <a href="login.html"><p class="Navegação"><strong>LOGIN</strong></p></a> </td> 
+				<td> <a href="contato.html"><p class="Navegação"><strong>CONTATO</strong></p></a> </td> <!-- Navegação do Menu ← -->
+				<td>
+					<h2 id="Nome_do_site"><strong>MANGÁS WORLD <br> (マンガの世界)</strong></h2> <!-- Nome do web site -->
+				</td>
+				<td><img id="Logo" src="Imagens\Logo.svg" alt="Imagem logo web site" width="100px" height="100px"></td> <!-- Imagem logo do web site -->
+			</tr>
+		</table> <!-- MENU ← -->
+		
+		<table id="Conteúdo"> <!-- → CONTEÚDO -->
+			<tr>
+				<td> 
+					<br>
+					<!-- → Primeiro parágrafo --> <p id="Apresentação_Contato">Preencha o formulário abaixo para entrar em contato conosco. Responderemos você por e-mail o mais breve possível.</p> <!-- Primeiro parágrafo ← -->
+					<hr width="100%" color="gold"> <br><br><br>
+
+					&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <img src="Imagens/Contato.webp" width="25%" height="65%"> <!-- Imagem de Contato -->
+
+					<form method="POST" action="contato.enviado.html"> <br><br> <!-- → FORMULÁRIO DE CONTATO -->
+						<input type="text" id="Nome_Completo_Contato" placeholder="Nome Completo" maxlength="100" required> <br><br> <!-- Preenchimento do nome-->
+						<input type="email" id="Email_Pessoal_Contato" placeholder="E-mail Pessoal" required> <br><br> <!-- Preenchimento do e-mail pessoal -->
+						<input type="list" list="Assunto_Contato" placeholder="Assunto" required> <br><br> <!-- Preenchimento do assunto -->
+							<datalist id="Assunto_Contato"> <!-- → Opções do assunto -->
+								<option>Bugs</option>
+								<option>Dúvidas</option>
+								<option>Sugestões</option>
+								<option>Outro(especificar na mensagem)</option>
+							</datalist> <!-- Opções do assunto ← -->
+						<textarea id="Mensagem_Contato" placeholder="Mensagem (até 800 caracteres)" maxlength="800" required></textarea> <br><br> <!-- Preenchimento da mensagem -->
+						<input type="reset" id="Cancelar_Contato"  value="CANCELAR"> <!-- Botão de reset -->
+						<input type="submit" id="Enviar_Contato"  value="ENVIAR"> <br><br> <!-- Botão de submit -->
+					</form> <!-- FORMULÁRIO DE CONTATO ← -->
+
+				</td>
+			</tr>
+		</table> <!-- CONTEÚDO ← -->
+		
+		<table id="Créditos"> <!-- → CRÉDITOS -->
+			<tr>
+				<td><address><center>Copyright<sup>&copy</sup> @CSFelix -- UNIP \ ARAÇATUBA</center></address></td>
+			<tr>
+		</table> <!-- CRÉDITOS ← -->
+
+	</body>
+
+</html>

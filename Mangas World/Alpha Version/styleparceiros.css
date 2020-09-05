@@ -1,0 +1,29 @@
+﻿#Apresentação_Parceiros {
+	margin-top: 5%;
+	margin-left: 4%;
+	font-weight: bolder;
+} /*O primeiro parágrafo encontra-se a 5% de distância da margem superior e 4% da ocidental; e possui negrito bolder.*/
+
+#Lista_de_Parceiros {
+	margin-left: 4%;
+	font-weight: bolder;
+} /*A lista de parceiros encontra-se a 4% de distância da margem esquerda e tem negrito bolder.*/
+
+.Nome_do_Parceiro {
+	margin-left: 5%;
+} /*O nome do parceiro encontra-se a 5% de distância da margem esquerda.*/
+
+.Logo_do_Parceiro {
+	margin-left: 5%;
+	border: 3px solid black;
+} /*A logo do parceiro encontra-se também a 5% de distância da margem esquerda, mas possui uma borda sólida preta de 3 pixels de largura.*/
+
+.Parágrafo_de_Apresentação {
+	margin-left: 3%;
+	width: 95%;
+	text-align: justify;
+} /*A descrição do parceiro encontra-se a 3% de distância da margem esquerda, tem 95% de comprimento e seu texto tem alinhamento justificado.*/
+
+.Link_do_Website {
+	margin-left: 3%;
+} /*O parágrafo que permite acessar o website do parceiro encontra-se a 3% de distância da margem esquerda (Também há três espaçamentos &nbsp e um espaço comum).*/

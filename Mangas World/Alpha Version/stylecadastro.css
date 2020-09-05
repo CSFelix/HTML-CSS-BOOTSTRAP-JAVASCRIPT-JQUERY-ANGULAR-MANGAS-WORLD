@@ -1,0 +1,77 @@
+h3 {
+	margin-top: 4.5%;
+	margin-left: 4%;
+} /*O identificador de "NOVO USUÁRIO" encontra-se a 4,5% e 4% de distância da margem superior e do ocidental que o define respectivamente*/
+
+hr {
+	margin-top: 2%;
+} /*A linha divisória encontra-se a 2% de sua margem superior*/
+
+form {
+	border: 3px solid black;
+	margin-top: 1%;
+	margin-left: 4%;
+	background-color: red;
+	width: 90%;
+} /*O formulário possui uma borda solida preta de 3 pixels de largura; distância de 1% de sua borda superior e 4% da margem esquerda; 
+;preenchimento vermelho; e 90% de comprimento*/
+
+input {
+	border: 2px solid black;
+} /*Todas as caixas de entrada do formulário têm borda sólida preta de 2 pixels de largura*/
+
+#Nome_Completo {
+	margin-left: 2%;
+	margin-top: -5%;
+	width: 95%;
+} /*A entrada para o nome está a 2% de distância da margem esquerda, -5% da superior e comprimento de 95% do formulário*/
+
+#CPF {
+	margin-left: 2%;
+	width: 11%;
+} /*A entrada para o CPF está a 2% de distância da margem esquerda e comprimento de 11% do formulário*/
+
+#Endereço {
+	margin-left: 10%;
+	width: 50%;
+} /*A entrada para o endereço está a 10% de distância da margem esquerda e comprimento de 50% do formulário*/
+
+#Nível {
+	margin-left: 4%;
+	width: 20%;
+} /*A entrada para o nível escolar está a 4% de distância da margem esquerda e comprimento de 20% do formulário*/
+
+#E-mail {
+	margin-left: 2%;
+	width: 35%;
+} /*A entrada para o e-mail está a 2% de distância da margem esquerda e comprimento de 35% do formulário*/
+
+#Senha {
+	margin-left: 5%;
+	width: 25%;
+} /*A entrada para a senha está a 5% de distância da margem esquerda e comprimento de 25% do formulário*/
+
+#Status {
+	margin-left: 10%;
+	width: 20%;
+} /*A entrada para o status civil está a 10% de distância da margem esquerda e comprimento de 20% do formulário*/
+
+.Botão_form {
+	float: right;
+	margin-right: 5%;
+	background-color: white;
+	color: black;
+	font-weight: lighter;
+} /*Os botões de submit e reset são flutuados para o lado direito do formulário; encontram-se a 5% de distância da margem oriental; 
+têm preenchimento branco e letras pretas com negrito lighter*/
+
+.Botão_form:hover {
+	color: red;
+} /*Quando o cursor do mouse estiver sobre o botão de submit ou de reset, as letras deles tornar-se-ão vermelhas*/
+
+#Observação {
+	margin-top: -8%;
+	margin-left: 5%;
+	font-size: 15px;
+} /*A observação do formulário encontra-se a -8% e 5% de distância da margem superior e ocidental respectivamente; e fonte de 15 pixels*/
+

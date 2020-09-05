@@ -1,0 +1,56 @@
+<html>
+
+	<head>
+
+		<title>MANGÁS WORLD (マンガの世界)</title>
+		
+		<link type="text/css" rel="stylesheet" href="styleglobal.css"> <!-- CSS global do web site -->
+		<link type="text/css" rel="stylesheet" href="stylelogin.css"> <!-- CSS específico da página -->
+
+	</head>
+	
+	<body>
+
+		<table id="Menu"> <!-- → MENU -->
+			<tr>
+				<td> <a href="index.html"><p class="Navegação"><strong>A EMPRESA</strong></p></a> </td> <!-- → Navegação do Menu -->
+				<td> <a href="parceiros.html"><p class="Navegação"><strong>PARCEIROS</strong></p></a> </td> 
+				<td> <a href="produtos.html"><p class="Navegação"><strong>PRODUTOS</strong></p></a> </td>
+				<td> <a href="login.html"><p class="Navegação"><strong>LOGIN</strong></p></a> </td> 
+				<td> <a href="contato.html"><p class="Navegação"><strong>CONTATO</strong></p></a> </td> <!-- Navegação do Menu ← -->
+				<td>
+					<h2 id="Nome_do_site"><strong>MANGÁS WORLD <br> (マンガの世界)</strong></h2> <!-- Nome do web site -->
+				</td>
+				<td><img id="Logo" src="Imagens\Logo.svg" alt="Imagem logo web site" width="100px" height="100px"></td> <!-- Imagem logo do web site -->
+			</tr> <!-- MENU ← -->
+		</table>
+		
+		<table id="Conteúdo"> <!-- → CONTEÚDO -->
+			<tr>
+				<td> <br><br><br>
+					<!-- → Primeiro parágrafo --> <p id="Apresentação">&nbsp &nbsp &nbsp &nbsp &nbsp Digite seu e-mail e senha para acessar sua conta otaku/otome. Caso ainda não possua uma, cadastre-se agora de maneira rápida e gratuita.</p> <!-- Primeiro parágrafo ← -->
+
+					<hr width="100%" color="gold"> <br> <br> <br> <br> 
+				
+					<form method="POST" action="produtos.html"> <!-- → FORMULÁRIO DE LOGIN -->
+						<br><br>
+						<strong>&nbsp &nbsp &nbsp LOGIN:</strong> <input type="email" maxlength="50" required> <br><br> <!-- Preenchimento do e-mail -->
+						<strong>&nbsp &nbsp &nbsp SENHA:</strong> <input type="password" maxlength="25" required> <br><br> <!-- Preenchimento da senha -->
+						<input id="Botão1" type="submit" value="ENVIAR"> <br><br> <!-- Botão de enviar -->
+					</form> <!-- FORMULÁRIO DE LOGIN ← -->
+					
+					<button id="Botão2"><a id="Cadastramento" href="cadastro.html">CADASTRE-SE</a></button> <!-- Botão para cadastro -->
+					<p id="Alerta">(Ao logar, você será automaticamente redirecionado para a página "PRODUTOS")</p> <!-- Apenas um alerta em texto -->
+				</td>
+			</tr>
+		</table> <!-- CONTEÚDO ← -->
+		
+		<table id="Créditos"> <!-- → CRÉDITOS -->
+			<tr>
+				<td><center>Copyright<sup>&copy</sup> @CSFelix -- UNIP\ARAÇATUBA</center></td>
+			<tr>
+		</table> <!-- CRÉDITOS ← -->
+
+	</body>
+
+</html>

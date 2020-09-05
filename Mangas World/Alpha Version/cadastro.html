@@ -1,0 +1,91 @@
+﻿<html>
+	<head>
+		<title>MANGÁS WORLD (マンガの世界)</title>
+		
+		<link type="text/css" rel="stylesheet" href="styleglobal.css"> <!-- CSS global do web site -->
+		<link rel="stylesheet" type="text/css" href="stylecadastro.css"> <!-- CSS específico da página -->
+	</head>
+	
+	<body>
+		<table id="Menu"> <!-- → MENU -->
+			<tr>
+				<td> <a href="index.html"><p class="Navegação"><strong>A EMPRESA</strong></p></a> </td> <!-- → Navegação do Menu -->
+				<td> <a href="parceiros.html"><p class="Navegação"><strong>PARCEIROS</strong></p></a> </td> 
+				<td> <a href="produtos.html"><p class="Navegação"><strong>PRODUTOS</strong></p></a> </td>
+				<td> <a href="login.html"><p class="Navegação"><strong>LOGIN</strong></p></a> </td> 
+				<td> <a href="contato.html"><p class="Navegação"><strong>CONTATO</strong></p></a> </td> <!-- Navegação do Menu ← -->
+				<td>
+					<h2 id="Nome_do_site"><strong>MANGÁS WORLD <br> (マンガの世界)</strong></h2> <!-- Nome do web site -->
+				</td>
+				<td><img id="Logo" src="Imagens\Logo.svg" alt="Imagem logo web site" width="100px" height="100px"></td> <!-- Imagem logo do web site -->
+			</tr>
+		</table> <!-- MENU ← -->
+		
+		<table id="Conteúdo"> <!-- → CONTEÚDO -->
+			<tr>
+				<td>
+					<h3>NOVO USUÁRIO</h3> <!-- Detalhe '-' -->
+					<hr width="100%" color="gold"> <br><br>
+
+						<form method="POST" action="login.html"> <!-- → FORMULÁRIO DE CADASTRO --> <br>
+							&nbsp &nbsp &nbsp NOME COMPLETO: <br> <br>
+							<input type="text" id="Nome_Completo" placeholder="Informe seu nome completo" maxlength="100" required> <br><br> <!--Preenchimento do nome -->
+
+							&nbsp &nbsp &nbsp 
+							CPF: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+							&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+							ENDEREÇO: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+							NÍVEL:<br><br>
+
+							<input type="number" id="CPF" placeholder="Insira seu CPF" maxlength="14" required> <!-- Preenchimento do CPF -->
+							<input type ="text" id="Endereço" placeholder="Informe o endereço" maxlength="200" required> <!-- Preenchimento do endereço -->
+							<input type="list" id="Nível" list="Opções" placeholder="---" required> <!-- Preenchimento do nível escolar -->
+								<datalist id="Opções"> <!-- → Opções para o nível escolar -->
+									<option>Ensino Fundamental Incompleto</option>
+									<option>Ensino Fundamental Completo</option>
+									<option>Ensino Médio Incompleto</option>
+									<option>Ensino Médio Completo</option>
+									<option>Ensino Superior Incompleto</option>
+									<option>Ensino Superior Completo</option>
+									<option>Mestrado Incompleto</option>
+									<option>Mestrado Completo</option>
+									<option>Doutorado Incompleto</option>
+									<option>Doutorado Completo</option>
+								</datalist> <!-- Opções para o nível escolar ← --> <br><br>
+
+							&nbsp &nbsp &nbsp 
+							EMAIL: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+							SENHA:  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp 
+							STATUS: <br><br>
+
+							<input type="email" id="E-mail" placeholder="Informe seu e-mail pessoal" required> <!-- Preenchimento do e-mail pessoal -->
+							<input type="password" id="Senha" placeholder="Informe a senha (max: 25 caracteres)" maxlength="25" required> <!-- Preenchimento da senha -->
+							<input type="list" id="Status" list="Opções2" placeholder="---" required> <!-- Preenchimento do status civil -->
+								<datalist id="Opções2"> <!-- → Opções para o status civil -->
+									<option>---</option>
+									<option>Solteiro(a)</option>
+									<option>Noivo(a)</option>
+									<option>Casado(a)</option>
+									<option>Separado(a)</option>
+									<option>Viúvo(a)</option>
+								</datalist> <!-- Opções para o status civil ← --> <br><br>
+
+							<input type="reset" class="Botão_form" value="CANCELAR">
+							<input type="submit" class="Botão_form" value="ENVIAR"> <!-- Botões --> <br><br><br><br>
+						</form> <!-- FORMULÁRIO DE CADASTRO ← -->
+
+						<p id="Observação">(OBS.: preencha o formulário acima com dados válidos a fim de evitar problemas durante a compra e a entrega dos produtos. Não se preocupe com o destino das informações enviadas, elas estarão completamente seguras em nosso banco de dados)</p> <!-- Mensagem do desenvolvedor aos cadastrantes -->
+						
+						<br><br><br>
+				</td>
+			</tr>
+		</table> <!-- CONTEÚDO ← -->
+		
+		<table id="Créditos"> <!-- → CRÉDITOS -->
+			<tr>
+				<td><address><center>Copyright<sup>&copy</sup> @CSFelix -- UNIP \ ARAÇATUBA</center></address></td>
+			<tr>
+		</table> <!-- CRÉDITOS ← -->
+
+	</body>
+</html>

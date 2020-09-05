@@ -1,0 +1,34 @@
+﻿#Apresentação_Produtos {
+	margin-top: 5%;	
+	margin-left: 4%;
+	font-weight: bolder;
+} /*O primeiro parágrafo encontra-se a 5% de distância da margem superior e 4% da ocidental. Seu negrito é bolder.*/
+
+#Boas_Compras {
+	margin-top: 3%;	
+	margin-left: 40%;
+	font-weight: bolder;
+} /*A mensagem de boas compras encontra-se a 3% de distância da margem superior e 40% da ocidental. Seu negrito é bolder.*/
+
+#Mangás {
+	margin-left: 5%;
+	background-color: red;
+} /*A tabela de mangás encontra-se a 5% de distância da margem esquerda e tem preenchimento vermelho.*/
+
+.Dividir {
+	border: 3px solid gold;
+} /*Cada coluna da tabela tem uma borda sólida dourada de 3 pixels de largura.*/
+
+.MangáProduto {
+	border: 3px solid black;
+	margin-left: 25%;	
+} /*A imagem dos mangás têm borda sólida preta de 3 pixels de largura e encontram-se a 25% de distância da margem esquerda de cada coluna.*/
+
+.MangáProduto:hover {
+	border: 3px solid gold;
+} /*Quando o cursor do mouse estiver sobre alguma imagem do mangá, a borda desta irá ficar amarela.*/
+
+.Identificador_Mangá {
+	text-align: center;
+	color: white;
+} /*O nome do mangá encontra-se no centro de cada coluna e preenchido pela cor branca.*/

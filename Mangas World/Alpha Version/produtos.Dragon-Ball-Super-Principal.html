@@ -1,0 +1,159 @@
+﻿<html>
+
+	<head>
+
+		<title>MANGÁS WORLD (マンガの世界)</title>
+		
+		<link type="text/css" rel="stylesheet" href="styleglobal.css"> <!-- CSS global do web site -->
+		<link rel="stylesheet" type="text/css" href="styleprodutos-Principal.css"> <!-- CSS específico da página -->
+
+		<script type="text/javascript">
+
+			function Comprar() {
+				var x = confirm("'Seis meses após a derrota de Majin Boo surge outro vilão: Beerus, o DEUS DA DESTRUIÇÃO. O Senhor Kaioh me disse que ele tem um poder capaz de destruir planetas. Com certeza ele deve ser muito poderoso, por isso que não vejo a hora de enfrentá-lo. Senhor Beerus, prepare-se. ASS.: Son Goku'\n Preço: R$ 17,90\n Deseja comprar este volume?");
+				if(x === true) {
+					alert("Compra bem sucedida. Obrigado pela preferência ☺");
+				} else {
+					alert ("Compra cancelada.")
+				}
+			}; /*Ao clicar nos produtos, a compra via script é realizada. Se o usuário clicar em "Ok", a compra é efetuada, caso contrário, cancelada.*/
+
+			function ComprarExtra1() {
+				var x = confirm("'Oh ho, ho, ho. O imperador do mal ressurgiu, e mais forte do que antes. Vingar-me-ei de todos aqueles que me fizeram sofrer, principalmente daquele maldito sayajin chamado Son Goku. Será um espetáculo de arrepiar. Oh ho, ho, ho ASS.: Freeza'\n Preço: R$ 15,90\n Deseja comprar este volume?");
+				if(x === true) {
+					alert("Compra bem sucedida. Obrigado pela preferência ☺");
+				} else {
+					alert ("Compra cancelada.")
+				}
+			}; /*Ao clicar nos produtos, a compra via script é realizada. Se o usuário clicar em "Ok", a compra é efetuada, caso contrário, cancelada.*/
+
+			function ComprarExtra2() {
+				var x = confirm("'Olá, eu sou Jaco, o patrulheiro galáctico número um de todo o universo. Recebi a missão de evitar uma INVASÃO EXTRATERRESTRE na Terra. O invasor é apenas um BEBÊ SAYAJIN, mas sua presença no planeta é uma grande ameaça. Bem, chega de conversa e vamos ao trabalho, pois meu tempo é limitado. ASS.: Jaco'\n Preço: R$ 18,90\n Deseja comprar este volume?");
+				if(x === true) {
+					alert("Compra bem sucedida. Obrigado pela preferência ☺");
+				} else {
+					alert ("Compra cancelada.")
+				}
+			}; /*Ao clicar nos produtos, a compra via script é realizada. Se o usuário clicar em "Ok", a compra é efetuada, caso contrário, cancelada.*/
+
+		</script>
+
+	</head>
+	
+	<body>
+		
+		<table id="Menu"> <!-- → MENU -->
+			<tr>
+				<td> <a href="index.html"><p class="Navegação"><strong>A EMPRESA</strong></p></a> </td> <!-- → Navegação do Menu -->
+				<td> <a href="parceiros.html"><p class="Navegação"><strong>PARCEIROS</strong></p></a> </td> 
+				<td> <a href="produtos.html"><p class="Navegação"><strong>PRODUTOS</strong></p></a> </td>
+				<td> <a href="login.html"><p class="Navegação"><strong>LOGIN</strong></p></a> </td> 
+				<td> <a href="contato.html"><p class="Navegação"><strong>CONTATO</strong></p></a> </td> <!-- Navegação do Menu ← -->
+				<td>
+					<h2 id="Nome_do_site"><strong>MANGÁS WORLD <br> (マンガの世界)</strong></h2> <!-- Nome do web site -->
+				</td>
+				<td><img id="Logo" src="Imagens\Logo.svg" alt="Imagem logo web site" width="100px" height="100px"></td> <!-- Imagem logo do web site -->
+			</tr>
+		</table> <!-- MENU ← -->
+		
+		<table id="Conteúdo"> <!-- → CONTEÚDO -->
+			<tr>
+				<td> <br><br>
+					<h3 id="Título_Dragon_Ball"><a name="TOPO">DRAGON BALL SUPER</a></h3> <!-- Título do mangá -->
+					<hr width="100%" color="gold"> <br><br>
+					<img id="Poster" src="Imagens\Poster_Dragon_Ball_Super.webp" width="45%" height="23%"> <!-- Pôster -->
+					<br><br>
+					<ul id="Informações"> <!-- → DESCRIÇÃO DO MANGÁ -->
+						<li><strong>Sinopse:</strong> Após muito esforço, Son Goku completa a genki dama e finalmente elimina o temível Majin Boo. Agora, seis meses após a derrota do vilão, surge Beerus, o Deus da Destruição do Universo 7, em busca do Super Sayajin Deus. Para complicar a situação, Beerus tem um irmão, Chanpa, o Deus da Destruição do Universo 6, que propõe um torneio de artes marciais entre os dois universos. Será que Goku e seus amigos irão conseguir vencer este novo desafio, atingindo o nível dos deuses? Não podemos mais esperar...</li> <br>
+						<li><strong>Autor:</strong> Akira Toriyama.</li> <br> 
+						<li><strong>Status:</strong> Em lançamento.</li> <br>
+						<li><strong>Classificação indicativa:</strong> 14 anos.</li> <br>
+						<li><strong>Volumes</strong></li> <!-- Volume -->
+					</ul> <!-- DESCRIÇÃO DO MANGÁ ← -->
+					
+
+					<table id="Volumes"> <!-- → VOLUMES DISPONÍVEIS -->
+						<tr>
+
+							<td class="Volumes"> <!-- → VOLUME 1 -->
+								<br>
+								<img onclick="Comprar()" class="Capa" src="Imagens_Mangás\Dragon Ball Super vol. 1.png" width="150px" height="200px">
+								<p class="Nome_Volume">DRAGON BALL SUPER</p> <p class="Número_Volume">#1</p>
+								<br>
+							</td> <!-- VOLUME 1 ← -->
+
+							<td class="Volumes"> <!-- → VOLUME 2 -->
+								<br>
+								<img onclick="Comprar()" class="Capa" src="Imagens_Mangás\Dragon Ball Super vol. 2.png" width="150px" height="200px">
+								<p class="Nome_Volume">DRAGON BALL SUPER</p>  <p class="Número_Volume">#2</p>
+								<br>
+							</td> <!-- VOLUME 2 ← -->
+
+							<td class="Volumes"> <!-- → VOLUME 3 -->
+								<br>
+								<img onclick="Comprar()" class="Capa" src="Imagens_Mangás\Dragon Ball Super vol. 3.png" width="150px" height="200px">
+								<p class="Nome_Volume">DRAGON BALL SUPER</p> <p class="Número_Volume">#3</p>
+								<br>
+							</td> <!-- VOLUME 3 ← -->
+
+							<td class="Volumes"> <!-- → VOLUME 4 -->
+								<br>
+								<img onclick="Comprar()" class="Capa" src="Imagens_Mangás\Dragon Ball Super vol. 4.png" width="150px" height="200px">
+								<p class="Nome_Volume">DRAGON BALL SUPER</p> <p class="Número_Volume">#4</p>
+								<br>
+							</td> <!-- VOLUME 4 ← -->
+
+						</tr>
+
+						<tr>
+
+							<td class="Volumes"> <!-- → VOLUME 5 -->
+								<br>
+								<img onclick="Comprar()" class="Capa"  src="Imagens_Mangás\Dragon Ball Super vol. 5.png" width="150px" height="200px">
+								<p class="Nome_Volume">DRAGON BALL SUPER</p> <p class="Número_Volume">#5</p>
+								<br>
+							</td> <!-- VOLUME 5 ← -->
+
+							<td class="Volumes"> <!-- → VOLUME EXTRA 1 -->
+								<br>
+								<img class="Capa" onclick="ComprarExtra1()" src="Imagens_Mangás\Dragon Ball_ O renascimento de Freeza.png" width="150px" height="200px">
+								<p class="Nome_Volume">DRAGON BALL SUPER</p> <p class="Número_Volume">EXTRA #1</p>
+								<br>
+							</td> <!-- VOLUME EXTRA 1 ← -->
+
+							<td class="Volumes"> <!-- → VOLUME EXTRA 2 -->
+								<br>
+								<img class="Capa" onclick="ComprarExtra2()" src="Imagens_Mangás\Dragon Ball_ Jaco, o patrulheiro galáctico.png" width="150px" height="200px">
+								<p class="Nome_Volume">DRAGON BALL SUPER</p> <p class="Número_Volume">EXTRA #2</p>
+								<br>
+							</td> <!-- VOLUME EXTRA 2 ← -->
+
+							<td class="Volumes"></td> <!-- NONE -->
+						</tr>
+					</table> <!-- VOLUMES DISPONÍVEIS ← -->
+					<br>
+
+					<p id="Notícia"><strong>Notícia:</strong> O primeiro filme de Dragon Ball Super já foi confirmado, seu nome será "Dragon Ball Super: A origem dos sayajins" e seu lançamento está previsto para dezembro de 2018. Ainda não há informações sobre o enredo, mas sabe-se que um novo sayajin detentor de um poder superior ao Blue seja o possível vilão. Veja o teaser abaixo.</p> <!-- NOTÍCIA -->
+
+					<video controls> <!-- → VÍDEO DA NOTÍCIA -->
+						<source src="Vídeos\Teaser_Filme_Dragon_Ball_Super.mp4" type="video/mp4">
+					</video> <!-- VÍDEO DA NOTÍCIA ← -->
+					
+					<center> <!-- → VOLTAR AO TOPO -->
+						<p><a href="#TOPO">VOLTAR AO TOPO</a></p>
+					</center> <!-- VOLTAR AO TOPO ← -->
+
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				</td>
+			</tr>
+		</table> <!-- CONTEÚDO ← -->
+		
+		<table id="Créditos"> <!-- → CRÉDITOS -->
+			<tr>
+				<td><address><center>Copyright<sup>&copy</sup> @CSFelix -- UNIP \ ARAÇATUBA</center></address></td>
+			<tr>
+		</table> <!-- CRÉDITOS ← -->
+
+	</body>
+
+</html>

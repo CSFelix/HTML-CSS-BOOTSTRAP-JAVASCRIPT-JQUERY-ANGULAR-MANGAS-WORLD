@@ -1,0 +1,86 @@
+﻿<html>
+
+	<head>
+
+		<title>MANGÁS WORLD (マンガの世界)</title>
+		
+		<link type="text/css" rel="stylesheet" href="styleglobal.css"> <!-- CSS global do web site -->
+		<link rel="stylesheet" type="text/css" href="stylecontato.css"> <!-- CSS específico da página -->
+
+		<script type="text/javascript">
+
+			alert("Mensagem enviada com sucesso ☺"); //Mensagem enviada com sucesso
+
+		</script>
+
+	</head>
+	
+	<body>
+
+		<table id="Menu"> <!-- → MENU -->
+			<tr>
+				<td> <a href="index.html"><p class="Navegação"><strong>A EMPRESA</strong></p></a> </td> <!-- → Navegação do Menu -->
+				<td> <a href="parceiros.html"><p class="Navegação"><strong>PARCEIROS</strong></p></a> </td> 
+				<td> <a href="produtos.html"><p class="Navegação"><strong>PRODUTOS</strong></p></a> </td>
+				<td> <a href="login.html"><p class="Navegação"><strong>LOGIN</strong></p></a> </td> 
+				<td> <a href="contato.html"><p class="Navegação"><strong>CONTATO</strong></p></a> </td> <!-- Navegação do Menu ← -->
+				<td>
+					<h2 id="Nome_do_site"><strong>MANGÁS WORLD <br> (マンガの世界)</strong></h2> <!-- Nome do web site -->
+				</td>
+				<td><img id="Logo" src="Imagens\Logo.svg" alt="Imagem logo web site" width="100px" height="100px"></td> <!-- Imagem logo do web site -->
+			</tr>
+		</table> <!-- MENU ← -->
+		
+		<table id="Conteúdo"> <!-- → CONTEÚDO -->
+			<tr>
+				<td> 
+					<br>
+					<!-- → Primeiro parágrafo --> <p id="Mensagem_Enviada">Mensagem enviada, em breve responderemos.</p> <!-- Primeiro parágrafo ← -->
+					<hr width="100%" color="gold"> <br><br>
+
+					&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <img src="Imagens/Contato.webp" width="25%" height="65%"> <!-- Imagem de contato --> <br><br><br> 
+
+					<svg id="Animação_MensagemEnviada" width="450" height="350"> <!-- → ANIMAÇÃO SVG -->
+						<text x="90" y="65">メッセージをありがとうございますよ!</text>
+
+						<rect x="2" y="85" width="440" height="200" rx="20" ry="20" style="fill:red; stroke: black; stroke-width: 5; fill-opacity: 0.8"></rect> <!-- Fundo da animação -->
+
+						<rect x="20" y="160" width="25" height="75" fill="black"></rect> <!-- → COMPUTADOR 1 -->
+						<rect x="55" y="160" width="50" height="50" fill="black"></rect>
+						<rect x="63" y="168" width="35" height="35" fill="gray"></rect>
+						<rect x="70" y="210" width="20" height="20" fill="black"></rect>
+						<ellipse cx="80" cy="230" rx="20" ry="5" fill="black"></ellipse> <!-- COMPUTADOR 1 ← -->
+
+						<circle cx="130" cy="190" r="5" fill="blakc"></circle> <!-- → DETALHES -->
+						<circle cx="160" cy="190" r="5" fill="blakc"></circle>
+						<circle cx="190" cy="190" r="5" fill="blakc"></circle>
+						<circle cx="220" cy="190" r="5" fill="blakc"></circle>
+						<circle cx="250" cy="190" r="5" fill="blakc"></circle>
+						<circle cx="280" cy="190" r="5" fill="blakc"></circle>
+						<circle cx="310" cy="190" r="5" fill="blakc"></circle> <!-- DETALHES ← -->
+
+						<rect x="400" y="160" width="25" height="75" fill="black"></rect> <!-- → COMPUTADOR 2 -->
+						<rect x="340" y="160" width="50" height="50" fill="black"></rect>
+						<rect x="348" y="168" width="35" height="35" fill="gray"></rect>
+						<rect x="355" y="210" width="20" height="20" fill="black"></rect>
+						<ellipse cx="365" cy="230" rx="20" ry="5" fill="black"></ellipse> <!-- COMPUTADOR 2 ← -->
+
+						<rect width="40" height="30" x="200" y="175" style="fill:white; stroke: black"> <!-- → Mensagem a ser enviada -->
+
+							<animate attributeName="x" from="110" to="280" dur="3s" fill="freeze"></animate> <!-- O ATRIBUTO "X" DO RETÂNGULO MODIFICA-SE DE 110 PARA 280 DURANTE 3 SEGUNDOS. AO REALIZAR ISSO, A ANIMAÇÃO CONGELA -->
+							
+						</rect> <!-- MENSAGEM A SER ENVIADA ← -->
+					</svg> <!-- ANIMAÇÃO SVG ← -->
+				</td>
+			</tr>
+		</table> <!-- CONTEÚDO ← -->
+		
+		<table id="Créditos"> <!-- → CRÉDITOS -->
+			<tr>
+				<td><address><center>Copyright<sup>&copy</sup> @CSFelix -- UNIP \ ARAÇATUBA</center></address></td>
+			<tr>
+		</table> <!-- CRÉDITOS ← -->
+
+	</body>
+
+</html>

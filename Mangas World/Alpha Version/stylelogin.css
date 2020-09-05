@@ -1,0 +1,55 @@
+#Apresentação {
+	margin-top: -7%;
+	font-weight: bolder;
+} /*A frase encontra-se a -7% de distância da margem superior e possui negrito bolder.*/
+
+form {
+	width: 30%;
+	margin-left: 35%;
+	border: 3px solid black;
+	background-color: red;
+} /*O formulário possui comprimento de 30%, 35% de distância da margem ocidental, uma borda sólida preta de 3 pixels de largura e preenchimento vermelho.*/
+
+input {
+	border: 1px solid black;
+	margin-left: 10%;
+	width: 50%
+} /*Todos os inputs do formulário têm uma borda sólida preta de 1 pixel de largura, encontram-se a 10% de distância da margem esquerda
+e têm 50% de comprimento.*/
+
+#Alerta {
+	margin-left: 23%;
+} /*O alerta encontra-se a 23% de distância da margem esquerda.*/
+
+#Botão1 {
+	margin-left: 17%;
+	border-radius: 5px;
+	background-color: white;
+	color: black;
+	font-weight: lighter;
+	width: 20%
+} /*O botão de "submit" encontra-se 17% da margem esquerda que o delimita, 5 pixels de raio de borda,
+ preenchimento branco,  letras em preto, negrito lighter e 20% de comprimento.*/
+
+#Botão1:hover {
+	color: red;
+} /*Quando o cursor do mouse estiver sobre o botão de "submit", as letras dele tornar-se-ão vermelhas.*/
+
+#Botão2 {
+	border: 1px solid black;
+	margin-left: 50%;
+	margin-top: -5.3%;
+	border-radius: 5px;
+	background-color: white;
+} /*O botão de "cadastro" possui uma borda sólida preta de 1 pixel de largura, encontra-se a 50% pixels da margem esquerda e -5.3%
+da margem superior que o delimita, 5 pixels de raio de borda e preenchimento branco.*/
+
+#Cadastramento{
+	background-color: white;
+	color: black;
+	font-weight: lighter;
+} /*A âncora do botão "cadastro" tem preenchimento branco e letras pretas com negrito lighter.*/
+
+#Cadastramento:hover {
+	color: red;
+} /*Quando o cursor do mouse estiver sobre o link de cadastro, as letras dele tornar-se-ão vermelhas.*/

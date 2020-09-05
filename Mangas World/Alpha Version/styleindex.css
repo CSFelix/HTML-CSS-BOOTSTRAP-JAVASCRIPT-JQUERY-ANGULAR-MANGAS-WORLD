@@ -1,0 +1,79 @@
+﻿svg {
+	margin-top: -15%;
+	margin-left: 15%;
+	-webkit-animation: Cor 10s infinite alternate;
+} /*O desenho svg encontra-se a -15% da margem superior e 15% da ocidental.
+Para a animação: Cor (nome da animação); dez segundos de funcionamento; repetição infinita; e sentido alternado.*/
+
+@-webkit-keyframes Cor {
+	from{background-color: red}
+	to{background-color: gold}
+} /*A cor muda de vermelho para dourado, e vice-versa.*/
+
+svg rect{
+	-webkit-animation: Poder 10s infinite alternate;
+} /*Para a animação do retângulo contido dentro do svg: Poder (nome da animação); dez segundos de funcionamento; repetição infinita; e sentido alternado.*/
+
+@-webkit-keyframes Poder {
+	from{fill: blue}
+	to{fill: skyblue} /*A cor de fundo muda de azul comum para azul claro, e vice-versa.*/
+
+	from{x: 100%;}
+	to{x: 0%;} /*Sua posição x inicia no final do svg e termina no início, e vice-versa.*/
+
+	from{width: 0%}
+	to{width: 100%;} /*Seu comprimento varia de 100% do svg para 0%, e vice-versa.*/
+}
+
+svg ellipse {
+	-webkit-animation: Outro_Poder 10s infinite alternate;
+} /*Para a animação da ellipse contida dentro do svg: Outro_Poder (nome da animação); dez segundos de funcionamento; repetição infinita; sentido alternado.*/
+
+@-webkit-keyframes Outro_Poder {
+	from{fill: limegreen}
+	to{fill: darkgreen} /*A cor de fundo muda de verde limão para verde escuro, e vice-versa.*/
+
+	from{rx: 100%;}
+	to{rx: 0%;} /*Seu raio "x" vai de 100% para 0% do svg, e vice-versa.*/
+}
+
+#Logotipo {
+	font-family: fantasy;
+	margin-top: -11.3%;
+	margin-left: 43%;
+	color: white;
+	font-size: 25px;
+
+	-webkit-animation: Nome_do_site 10s infinite alternate;
+} /*Nome do site: fonte fantasy; -11,3% de distância da margem superior e 43% da ocidental; cor inicial branca; e 25px de fonte.
+Para a animação: Nome_do_site (nome da animação); dez segundos de funcionamento; repetição infinita; e sentido alternado.*/
+
+@-webkit-keyframes Nome_do_site {
+	from{color: white}
+	to{color: red}
+} /*A animação do nome do site faz a cor inicial branca tornar-se vermelha, e vice-versa.*/
+
+#Gif {
+	float: right;
+	margin-top: -8.8%;
+	margin-right: 5%;
+} /*O Gif do Goku é fulutuado para a direita e reposicionado a -8,8% da margem superior e 5% da margem oriental.*/
+
+#Gif2 {
+	float: left;
+	margin-top: -8.8%;
+	margin-left: 5%;
+} /*O Gif do Cell é fulutuado para a esquerda e reposicionado a -8,8% da margem superior e 5% da margem oriental.*/
+
+#Introdução_Empresa_1 {
+	width: 90%;
+	text-align: justify;
+	margin-top: 5%;
+	margin-left: 5%;
+} /*O primeiro parágrafo possui 90% de comprimento, alinhamento justificado e encontra-se a 5% de distância da margem superior e ocidental.*/
+
+#Introdução_Empresa_2 {
+	width: 90%;
+	text-align: justify;
+	margin-left: 5%;
+} /*O segundo parágrafo possui 90% de comprimento, alinhamento justificado e encontra-se a 5% de distância da ocidental.*/

@@ -1,0 +1,52 @@
+body {
+	background-color: gold;
+} /*O corpo da página é preenchido pela cor dourada.*/
+
+table {
+	width: 90%;
+	margin-left: 5%;
+	border: 3px solid black;
+} /*Todas as tabelas possuem 90% de comprimento, distância de 5% da margem esquerda do web site e borda sólida preta de 3 pixels de largura.*/
+
+#Menu {
+	background-color: red;
+} /*A tabela "Menu" é preenchida pela cor vermelha.*/
+
+.Navegação {
+	color: white;
+	margin-left: 10px;
+} /*Todos os itens do "Menu" são escritos em branco e têm 10 pixels de distância da borda da coluna.*/
+
+a {
+	text-decoration: none;
+} /*A decoração de textos com âncoras são desativadas.*/
+
+.Navegação:hover {
+	color: gold;
+} /*Quando o cursor do mouse estiver sobre algum item de "Navegação" do "Menu", a cor deste mudará para dourado.*/
+
+#Nome_do_site {
+	color: white;
+	float: right;
+	border: 3px solid white;
+	text-align: center;
+	width: 300px;
+} /*O nome do site é escrito em branco, flutuado à direita, possui uma borda sólida branca de 3 pixels de largura, 
+seu texto é alinhado no centro e tem um comprimento de 300 pixels.*/
+
+#Logo {
+	float: right;
+} /*A imagem de logo é flutuada para o lado direito do web site.*/
+
+#Conteúdo {
+	height: 80%;
+	background-color: white;
+} /*A tabela de "Conteúdo" possui altura de 80% da página e é preenchida pela cor branca.*/
+
+#Créditos {
+	background-color: white;
+} /*A tabela "Créditos" também é preenchida pela cor branca.*/
+
+p {
+	font-size: 17px;
+} /*Todos os parágrafos têm fonte de 17pixels.*/

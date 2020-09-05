@@ -1,0 +1,69 @@
+﻿#Apresentação_Contato {
+	margin-top: 3.3%;
+	margin-left: 4%;
+	font-weight: bolder;
+} /*A frase da página encontra-se a 3,3% e 4% de distância da margem superior e ocidental que a delimita respectivamente; 
+e possui negrito bolder.*/
+
+#Mensagem_Enviada {
+	margin-top: 3.3%;
+	margin-left: 4%;
+	font-weight: bolder;
+} /*A frase da página encontra-se a 3,3% e 4% de distância da margem superior e ocidental que a delimita respectivamente; 
+e possui negrito bolder.*/
+
+form {
+	border: 3px solid black;
+	width: 50%;
+	margin-top: -25%;
+	margin-left: 45%;
+	background-color: red;
+} /*O formulário possui borda sólida preta de 3 pixels de largura; preenche 50% do comprimento da tabela de conteúdo; 
+encontra-se a -25% e 45% de distância da margem superior e ocidental; e é preenchido pela cor vermelha.*/
+
+input{
+	border: 2px solid black;
+	margin-left: 15%;
+	width: 70%
+} /*Todos os preenchimentos inputs têm borda sólida preta de 2 pixels de largura; encontram-se a 15% de distância
+da margem ocidental do formulário; e têm 70% de comprimento do formulário.*/
+
+textarea {
+	border: 2px solid black;
+	margin-left: 15%;
+	width: 70%;
+	line-height: 2;
+} /*A área de texto tem borda sólida preta de 2 pixels de largura; encontra-se a 15% de distância da margem ocidental
+do formulário; tem 70% de comprimento do formulário e duas linhas.*/
+
+#Enviar_Contato {
+	float: right;
+	margin-right: -8%;
+	width: 20%;
+	border-radius: 5px;
+} /*O botão de submit é flutuado ao lado direito do formulário; encontra-se a -8% de distância da margem oriental; e
+tem 20% de comprimento e borda com raio de 5 pixels.*/
+
+#Enviar_Contato:hover {
+	color: red;
+} /*Quando o cursor do mouse estiver sobre o botão de submit, a cor das letras deste tornar-se-á vermelha.*/
+
+#Cancelar_Contato {
+	float: right;
+	margin-right: 15%;
+	width: 20%;
+	border-radius: 5px;
+} /*O botão de reset é flutuado ao lado direito do formulário; encontra-se a 15% de distância da margem oriental; e 
+tem 20% de comprimento e borda com raio de 5 pixels.*/
+
+#Cancelar_Contato:hover {
+	color: red;
+} /*Quando o cursor do mouse estiver sobre o botão de reset, a cor das letras deste tornar-se-á vermelha.*/
+
+#Animação_MensagemEnviada {
+	float: right;
+	margin-top: -35%;
+	margin-right: 10%;
+	font-weight: bolder;
+} /*A animação é flutuada para o lado direito; encontra-se a -35% de distância da margem superior e 10% da margem direita; e sua fonte tem negrito bolder.*/
+
