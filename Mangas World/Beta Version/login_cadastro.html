@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="@CSFelix" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" /> <!-- Responsive -->
+
+		<base href="" />
+		<title>MANGÁS WOLRD</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="Biblioteca/bootstrap.css" />
+
+		<!-- Global CSS -->
+		<link rel="stylesheet" type="text/css" href="CSS\global_xs.css" />
+		<link rel="stylesheet" type="text/css" href="CSS\global_sm.css" />
+		<link rel="stylesheet" type="text/css" href="CSS\global_md.css" />
+		<link rel="stylesheet" type="text/css" href="CSS\global_lg.css" />
+	</head>
+
+	<body>
+		<!-- Menu → -->
+			<div class="container" id="menu">
+				<div class="row">
+					<div class="col-md-3">
+						<header>
+							<h1>MANGAS WORLD <br /> マンガの<ruby>世<rt>せ</rt>界<rt>かい</rt></ruby></h1>
+						</header>
+					</div>
+
+					<div class="col-md-6">
+						<nav>
+							<ul class="list-group">
+								<a href="index.html"><li class="list-group-item">INÍCIO</li></a>
+								<a href="produtos.html"><li class="list-group-item">PRODUTOS</li></a>
+								<a href="novidades.html"><li class="list-group-item">NOVIDADES</li></a>
+								<a href="contato.html"><li class="list-group-item">CONTATO</li></a>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="col-md-3 col-xs-12">
+						<nav>
+							<a href=""><button class="btn btn-danger" id="select">ENTRAR</button></a>
+						</nav>
+						<img class="img-responsive" src="Imagens\Layout\logo_website.svg" alt="Logo do website. Uma menina sorridente estilo anime segurando uma placa de venda!" />
+					</div>
+				</div>
+			</div>
+		<!-- ← Menu -->
+
+		<!-- Conteúdo → -->
+			<div class="container" id="conteudo">
+				<div class="row">
+					<div class="col-xs-12">
+						<br /> <br />
+						<!-- Login -->
+						<form method="POST" action="" autocomplete="off">
+							<div class="form-group">
+								<label>LOGIN:</label>
+							</div>
+							<div class="form-group">
+								<label class="label label-primary" for="nome">Nome de usuário</label>
+								<input type="text" class="form-control" id="nome" required/>
+								<output></output>
+							</div>
+							<div class="form-group">
+								<label class="label label-primary" for="senha">Senha</label>
+								<input type="password" class="form-control" id="senha" required />
+								<output></output>
+							</div>
+							<div class="form-group">
+								<input type="submit" class="btn btn-danger" id="click" value="Logar!" />
+							</div>
+						</form>
+
+						<hr />
+
+						<!-- Cadastro -->
+						<form method="POST" action="" autocomplete="off">
+							<div class="form-group">
+								<label>CADASTRO:</label>
+							</div>
+							<div class="form-group">
+								<label class="label label-primary" for="nome_cdt">Nome de usuário</label>
+								<input type="text" class="form-control" id="nome_cdt" required />
+								<output></output>
+							</div>
+							<div class="form-group">
+								<label class="label label-primary" for="senha_cdt">Senha</label>
+								<input type="password" class="form-control" id="senha_cdt" required />
+								<output></output>
+							</div>
+							<div class="form-group">
+								<label class="label label-primary" for="check_senha_cdt">Conferir senha</label>
+								<input type="password" class="form-control" id="check_senha_cdt" required />
+								<output></output>
+							</div>
+							<div class="form-group">
+								<label class="label label-primary" for="email_cdt">Email de contato</label>
+								<input type="email" class="form-control" id="email_cdt" placeholder="exemplo@exemplo.com" required />
+								<output></output>
+							</div>
+							<div class="form-group">
+								<input type="submit" class="btn btn-danger" id="click" value="Cadastar!" />
+							</div>
+						</form>
+						<br /> <br />
+					</div>
+				</div>
+			</div>
+		<!-- ← Conteúdo -->
+
+		<!-- Créditos → -->
+			<div class="container" id="creditos">
+				<div class="row">
+					<div class="col-xs-12">
+						<footer>
+							Copyright <span>&copy</span> 2018 → @CSFelix
+						</footer>
+					</div>
+				</div>
+			</div>
+		<!-- ← Créditos -->	
+      
+	</body>
+</html>

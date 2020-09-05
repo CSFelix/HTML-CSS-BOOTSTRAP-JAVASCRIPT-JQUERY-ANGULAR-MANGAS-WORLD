@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+@media (min-width: 1500px) {
+	.well {
+		width: 40%;
+		margin-left: 2.5%;
+	}
+
+	#segundo {
+		margin-top: -40.5%;
+		margin-left: 50%;
+	}
+
+	#primeiro, #segundo {
+		border-style: solid;
+		border-color: black;
+		border-width: 2px;
+	}
+
+	#primeiro:hover, #segundo:hover {
+		border-color: gold;
+	}
+}

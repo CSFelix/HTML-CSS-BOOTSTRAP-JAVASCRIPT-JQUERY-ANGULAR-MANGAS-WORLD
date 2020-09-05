@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+@media (min-width: 0px) {
+	body {
+		background-color: gold;
+		font-family: sans-serif, serif;
+		font-size: 12pt;
+		color: black;
+		padding-top: 2%;
+		position: absolute;
+	}
+
+
+	/* Container → */
+	#menu, #conteudo, #creditos {
+		border-style: solid;
+		border-color: black;
+		border-width: 2px;
+	}
+
+	#menu, #conteudo, #creditos {
+		width: 90%;
+	}
+
+	#menu {
+		background-color: red;
+	}
+
+	#conteudo {
+		background-color: ghostwhite;
+	}
+
+	#creditos {
+		background-color: black;
+	}
+
+	/* ← Container */
+
+	/* Menu → */
+	#menu nav ul, #menu nav button, #menu h1 {
+		font-family: fantasy;
+		letter-spacing: 1px;
+		text-align: center;
+		margin-top: 2%;
+		color: ghostwhite;
+	}
+
+	#menu h1 {
+		font-size: 28px;
+		border-style: solid;
+		border-color: ghostwhite;
+		border-width: 2px;
+		word-wrap: break-word;
+		box-shadow: 2px 2px 2px 2px black;
+	}
+
+	#menu #select {
+		color: red;
+		background-color: ghostwhite;
+	}
+
+	#menu nav ul a li {
+		color: ghostwhite;
+		background-color: #f33; /* cinza clara */
+		display: inline-block;
+		box-shadow: 2px 2px 2px 2px black;
+		transition: box-shadow 0.3s ease, transform 0.3s ease;
+	}
+
+	#menu nav button {
+		font-size: 12pt;
+		box-shadow: 2px 2px 1px 1px black;
+		margin-left: 50%;
+		margin-top: 5%;
+		transition: box-shadow 0.3s ease, transform 0.3s ease;
+	}
+
+	#menu nav ul a li:hover, #menu #select:hover, #menu nav button:hover {
+		color: red;
+		background-color: #acd;
+	}
+
+	#menu nav ul a li:active, #menu nav button:active {
+		box-shadow: 0px 0px 0px 0px black, inset 2px 2px 1px 1px black;
+		transform: translate(5%, 5%);
+	}
+
+	#menu img {
+		margin-top: -16%;
+		margin-left: 80%;
+		width: 25%;
+	}
+	/* ← Menu */
+
+	/* Conteúdo → */
+	#conteudo h2 {
+		text-align: center;
+	}
+
+	#conteudo p {
+		text-indent: 2%;
+		text-align: justify;
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	#conteudo hr {
+		border-color: gold;
+		border-width: 2px;
+	}
+
+	#conteudo #logoCarousel {
+		width: 80%;
+	}
+
+	#conteudo #logoCarousel img{
+		width: 100%;
+		height: 100%;
+	}
+
+	#conteudo #logoCarousel h3{
+		font-family: fantasy;
+		color: ghostwhite;
+	}
+	/* ← Conteúdo */
+
+	/* Tables → */
+	#conteudo table, #conteudo table td, #conteudo table tr td img {
+		border-style: solid;
+		border-color: black;
+		border-width: 2px;
+	}
+
+	#conteudo table tr td {
+		text-align: center;
+	}
+
+	#conteudo table tr td img {
+		width: 100%;
+		height: 15%;
+	}
+
+	#conteudo table tr td img:hover {
+		border-color: gold;
+	}
+	/* ← Tables */
+
+	/* Forms → */
+	#conteudo form {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	#conteudo form input, #conteudo form textarea {
+		box-shadow: 2px 2px 1px 1px black;
+	}
+
+	#conteudo form #click {
+		margin-left: 2%;
+		transition: box-shadow 0.3s ease, transform 0.3s ease;
+	}
+
+	#conteudo form #click:active {
+		box-shadow: 0px 0px 0px 0px black, inset 2px 2px 1px 1px black;
+		transform: translate(5%, 5%);
+	}
+	/* ← Forms */
+
+	/* Vídeos → */
+		#conteudo #video video {
+			border-style: solid;
+			border-color: black;
+			border-width: 2px;
+			width: 70%;
+		}
+	/* ← Vídeos */
+
+	/* Footer → */
+	#creditos footer {
+		text-align: center;
+		color: ghostwhite;
+	}
+
+	#creditos footer span {
+		vertical-align: super;
+	}
+	/* ← Footer */
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="@CSFelix" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" /> <!-- Responsive -->
+
+		<base href="" />
+		<title>MANGÁS WOLRD</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="Biblioteca/bootstrap.css" />
+
+		<!-- Global CSS -->
+		<link rel="stylesheet" type="text/css" href="CSS\global_xs.css" />
+		<link rel="stylesheet" type="text/css" href="CSS\global_sm.css" />
+		<link rel="stylesheet" type="text/css" href="CSS\global_md.css" />
+		<link rel="stylesheet" type="text/css" href="CSS\global_lg.css" />
+	</head>
+
+	<body>
+		<!-- Menu → -->
+			<div class="container" id="menu">
+				<div class="row">
+					<div class="col-md-3">
+						<h1>MANGAS WORLD <br /> マンガの<ruby>世<rt>せ</rt>界<rt>かい</rt></ruby></h1>
+					</div>
+
+					<div class="col-md-6">
+						<nav>
+							<ul class="list-group">
+								<a href="index.html"><li class="list-group-item">INÍCIO</li></a>
+								<a href="produtos.html"><li class="list-group-item">PRODUTOS</li></a>
+								<a href="novidades.html"><li class="list-group-item">NOVIDADES</li></a>
+								<a href="contato.html"><li class="list-group-item" id="select">CONTATO</li></a>
+							</ul>
+						</nav>
+					</div>
+
+					<div class="col-md-3 col-xs-12">
+						<nav>
+							<a href="login_cadastro.html"><button class="btn btn-danger">ENTRAR</button></a>
+						</nav>
+						<img class="img-responsive" src="Imagens\Layout\logo_website.svg" alt="Logo do website. Uma menina sorridente estilo anime segurando uma placa de venda!" />
+					</div>
+				</div>
+			</div>
+		<!-- ← Menu -->
+
+		<!-- Conteúdo → -->
+			<div class="container" id="conteudo">
+				<div class="row">
+					<div class="col-xs-12">
+						<br /> <br />
+						<p>Preencha o formulário abaixo para entrar em contato conosco. Sua mensagem será respondida em breve via email.</p>
+						<br /> <br />
+						<!-- Contato -->
+						<form method="POST" action="" autocomplete="off">
+							<div class="form-group">
+								<label>CONTATO:</label>
+							</div>
+							<div class="form-group">
+								<label class="label label-primary" for="assunto">Assunto</label>
+								<input type="text" class="form-control" id="assunto" required />
+								<output></output>
+							</div>
+							<div class="form-group">
+								<label class="label label-primary" for="mensagem">Mensagem</label>
+								<textarea class="form-control" id="mensagem" rows="15" maxlength="500" placeholder="Mensagem de até 800 caracteres"></textarea>
+								<output></output>
+							</div>
+							<div class="form-group">
+								<input type="submit" id="click" class="btn btn-danger" value="Enviar!" />
+							</div>
+						</form>
+						<br /> <br />
+					</div>
+				</div>
+			</div>
+		<!-- ← Conteúdo -->
+
+		<!-- Créditos → -->
+			<div class="container" id="creditos">
+				<div class="row">
+					<div class="col-xs-12">
+						<footer>
+							Copyright <span>&copy</span> 2018 → @CSFelix
+						</footer>
+					</div>
+				</div>
+			</div>
+		<!-- ← Créditos -->	
+      
+	</body>
+</html>

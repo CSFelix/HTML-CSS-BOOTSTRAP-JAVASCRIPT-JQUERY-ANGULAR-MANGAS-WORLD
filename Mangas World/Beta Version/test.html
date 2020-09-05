@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+
+		<!-- Include the Polyfill -->
+<script src="https://www.javapoly.com/javapoly.js"></script>
+<!-- Write your Java code -->
+<script type="text/java">
+package com.ssaurel;
+import com.javapoly.dom.Window;
+public class HelloWorld {
+  public static void sayHello(String name) {
+    Window.alert("Hello " + name + ", from Java !");
+  }
+}
+</script>
+<!-- Invoke your Java code from Javascript -->
+<script type="text/javascript">
+  com.ssaurel.HelloWorld.sayHello("SSaurel");
+</script>
+
+
+</script>
+	</head>
+
+	<body></body>
+</html>
